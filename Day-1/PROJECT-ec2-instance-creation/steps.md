@@ -23,6 +23,26 @@ terraform init
 
 This command initializes the Terraform working directory, downloading any necessary provider plugins.
 
+## Validate Terraform**
+
+In your terminal, navigate to the directory containing your Terraform configuration files and run:
+
+```
+terraform validate
+```
+
+This Command Verifies the syntax and structure of your Terraform configuration files. Helps identify potential issues before applying changes to your infrastructure.
+
+## Terraform Plan**
+
+In your terminal, navigate to the directory containing your Terraform configuration files and run:
+
+```
+terraform plan
+```
+
+Generates a detailed execution plan for the infrastructure changes required by your current configuration. Shows the resources that will be created, updated, or destroyed.
+
 ## Apply the Configuration
 
 Run the following command to create the AWS resources defined in your Terraform configuration:
